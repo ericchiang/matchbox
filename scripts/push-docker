@@ -2,7 +2,7 @@
 
 REPO=coreos/matchbox
 QUAY_REPO=quay.io/coreos/matchbox
-GIT_SHA=$(./git-version)
+GIT_SHA=$(./scripts/git-version)
 
 # quay.io
 docker tag $REPO:$GIT_SHA $QUAY_REPO:latest
