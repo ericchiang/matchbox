@@ -1,0 +1,9 @@
+#!/bin/bash -e
+
+rand_str () {
+    cat /dev/urandom | tr -dc 'a-z0-9' | fold -w $1 | head -n 1
+}
+
+TOKEN="$( rand_str 6 ).$( rand_str 16 )"
+mkdir -p assets
+echo "KUBEADM_TOKEN=$TOKEN" > assets/kubeadm.env

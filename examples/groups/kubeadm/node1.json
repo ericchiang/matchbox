@@ -1,0 +1,18 @@
+{
+  "id": "node1",
+  "name": "Controller Node",
+  "profile": "kubeadm-controller",
+  "selector": {
+    "mac": "52:54:00:a1:9c:ae"
+  },
+  "metadata": {
+    "domain_name": "node1.example.com",
+    "etcd_initial_cluster": "node1=https://node1.example.com:2380",
+    "etcd_name": "node1",
+    "k8s_dns_service_ip": "10.3.0.10",
+    "pxe": "true",
+    "ssh_authorized_keys": [
+      "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCsNcSZ4/U5fxyPs67kP994oLEnP3dUpLC5+M508wCvxb0OvlKDWdqQYuu2mi2S1Xdg0arLkJHS0hnVaFqHWVA8= eric@60-57-18-db-67-7b"
+    ]
+  }
+}

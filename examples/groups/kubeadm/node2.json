@@ -1,0 +1,16 @@
+{
+  "id": "node2",
+  "name": "Worker Node",
+  "profile": "kubeadm-worker",
+  "selector": {
+    "mac": "52:54:00:b2:2f:86"
+  },
+  "metadata": {
+    "domain_name": "node2.example.com",
+    "k8s_dns_service_ip": "10.3.0.10",
+    "pxe": "true",
+    "ssh_authorized_keys": [
+      "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCsNcSZ4/U5fxyPs67kP994oLEnP3dUpLC5+M508wCvxb0OvlKDWdqQYuu2mi2S1Xdg0arLkJHS0hnVaFqHWVA8= eric@60-57-18-db-67-7b"
+    ]
+  }
+}
